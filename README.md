@@ -5,6 +5,7 @@
 ### Using the Fashin Mnist dataset in Tensorflow
 # How to run.
 ### ```conda create -n fashion_mnist python=3.6```
+### ```pip install -r requirements.txt```
 ### ```python fashionMnist.py```
 # How to add your own images.
 ### - Add them to the folder with the main file
