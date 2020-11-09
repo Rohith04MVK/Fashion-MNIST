@@ -2,7 +2,7 @@
 [![made-with-python](https://img.shields.io/badge/Made%20with-Tensorflow%202.3.1-FFFF00.svg?longCache=true&style=flat-square&colorB=00a1ff&logo=tensorflow&logoColor=FFFF00)](https://www.tensorflow.org/)
 # Fashion-MNIST
 ### Simple fashion accessories recognizing AI
-### Using the Fashin Mnist dataset in Tensorflow
+### Using the Fashion Mnist dataset in Tensorflow
 # How to run.
 ### ```conda create -n fashion_mnist python=3.6```
 ### ```pip install -r requirements.txt```
