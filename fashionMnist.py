@@ -15,11 +15,8 @@ train_images = train_images.reshape(train_images.shape[0], 28, 28, 1)
 test_images = test_images.reshape(test_images.shape[0], 28, 28, 1)
 
 
-model = keras.Sequential([
-    keras.layers.Conv2D(32, (3, 3), activation='relu',
-                        input_shape=(28, 28, 1)),
-    keras.layers.MaxPool2D(pool_size=(2, 2)),
-    keras.layers.Flatten(),
+'''model = keras.Sequential([
+    keras.layers.Flatten(input_shape = (28,28,1)),
     keras.layers.Dense(128, activation="relu"),
     keras.layers.Dense(10, activation="softmax")
 ])
@@ -28,20 +25,20 @@ model = keras.Sequential([
 model.compile(optimizer="adam",
               loss="sparse_categorical_crossentropy", metrics=["accuracy"])
 
-model.fit(train_images, train_labels, epochs=5)
+model.fit(train_images, train_labels, epochs=10)
 
 test_loss, test_acc = model.evaluate(test_images, test_labels)
 print(test_acc)
-model.save('model.h5')
+model.save('model.h5')'''
 
-'''model = keras.models.load_model('m.model')
+model = keras.models.load_model('model.h5')
 
 def process_image(path):
 	img = cv2.imread(path)
 	img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 	return cv2.resize(img, (28,28))
 
-images = np.array([process_image('bag.jpg'), process_image('ankle_boot.jpg'),process_image('pants.jpg')])
+images = np.array([process_image('bag.jpg'), process_image('pants.jpg')])
 
 images_reshaped = images.reshape(images.shape[0], 28,28,1)
 images_reshaped = tf.cast(images_reshaped, tf.float64)
@@ -67,11 +64,11 @@ def plot_value_array(prediction):
     thisplot[predicted_label].set_color('blue')
     
 plt.figure(figsize=(8,12))
-for i in range(3):
+for i in range(2):
     # image
     plt.subplot(3, 2, 2*i+1)
     plot_image(preds[i], images[i])
     # bar chart
     plt.subplot(3, 2, 2*i+2)
     plot_value_array(preds[i])
-plt.show()  '''
+plt.show()  
