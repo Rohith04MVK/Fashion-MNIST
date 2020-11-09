@@ -1,5 +1,5 @@
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python%203.8-ffe900.svg?longCache=true&style=flat-square&colorB=00a1ff&logo=python&logoColor=88889e)](https://www.python.org/)
-[![made-with-python](https://img.shields.io/badge/Made%20with-Tensorflow%202.3.1-FFFF00.svg?longCache=true&style=flat-square&colorB=000000&logo=tensorflow&logoColor=FFFF00)](https://www.tensorflow.org/)
+[![made-with-python](https://img.shields.io/badge/Made%20with-Tensorflow%202.3.1-FFFF00.svg?longCache=true&style=flat-square&colorB=00a1ff&logo=tensorflow&logoColor=FFFF00)](https://www.tensorflow.org/)
 # Fashion-MNIST
 ### Simple fashion accessories recognizing AI
 ### Using the Fashin Mnist dataset in Tensorflow
