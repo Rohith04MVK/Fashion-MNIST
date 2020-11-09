@@ -41,7 +41,7 @@ def get_image(path):
     img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     return cv2.resize(img, (28,28))
 
-images = np.array([get_image("snekers.png"), get_image("sandel.png"), get_image('bag.png')])
+images = np.array([get_image("./images/snekers.png"), get_image("./images/sandel.png"), get_image('./images/bag.png')])
 plt.figure(figsize=(10,10))
 for i in range(3):
     plt.subplot(1,3,i+1)
