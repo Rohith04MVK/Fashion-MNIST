@@ -5,6 +5,7 @@
 ### Using the Fashion Mnist dataset in Tensorflow
 # How to run.
 ### ```conda create -n fashion_mnist python=3.6```
+### ```conda activate fashion_mnist ```
 ### ```pip install -r requirements.txt```
 ### ```python fashionMnist.py```
 # How to add your own images.
