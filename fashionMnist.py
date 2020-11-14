@@ -36,8 +36,9 @@ print("Test accuracy: ", test_acc)
 
 model.save('model.h5')'''
 
+# predicting images
 
-'''def get_image(path):
+def get_image(path):
     img = cv2.imread(path)
     img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     return cv2.resize(img, (28, 28))
@@ -55,7 +56,6 @@ plt.show()
 images_reshaped = images.reshape(images.shape[0], 28, 28, 1)
 images_reshaped = tf.cast(images_reshaped, tf.float32)
 
-# model and predictions
 model = tf.keras.models.load_model("model.h5")
 preds = model.predict(images_reshaped)
 
@@ -88,11 +88,11 @@ for i in range(3):
     # bar chart
     plt.subplot(3, 2, 2*i+2)
     plot_value_array(preds[i])
-plt.show()'''
+plt.show()
 
 
 # Ploting train data
-for i in range(10):
+'''for i in range(10):
     plt.imshow(train_images[i], cmap=plt.cm.binary)
     plt.title(f"{class_names[train_labels[i]]}")
-    plt.show()
+    plt.show()'''
