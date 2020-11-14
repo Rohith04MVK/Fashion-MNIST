@@ -91,8 +91,9 @@ for i in range(3):
 plt.show()
 
 
-# Ploting train data
-'''for i in range(10):
+'''# Ploting train data
+for i in range(10):
     plt.imshow(train_images[i], cmap=plt.cm.binary)
     plt.title(f"{class_names[train_labels[i]]}")
+    plt.text(0, 0.5,f'{train_images[i].shape}')
     plt.show()'''
