@@ -65,8 +65,8 @@ def plot_image(prediction, img):
     plt.yticks([])
     plt.imshow(img, cmap=plt.cm.binary)
     predicted_label = np.argmax(prediction)
-    plt.xlabel(f"{class_names[predicted_label]} {100*np.max(prediction)}%",
-               color="cyan")
+    plt.xlabel(f"{class_names[predicted_label]} {round(np.max(prediction)*100, 0)}%",
+               color="blue")
 
 
 def plot_value_array(prediction):
