@@ -65,10 +65,8 @@ def plot_image(prediction, img):
     plt.yticks([])
     plt.imshow(img, cmap=plt.cm.binary)
     predicted_label = np.argmax(prediction)
-    plt.xlabel("{} {:2.0f}%".format(class_names[predicted_label],
-                                    100*np.max(prediction),
-                                    ),
-               color="blue")
+    plt.xlabel(f"{class_names[predicted_label]} {100*np.max(prediction)}%",
+               color="cyan")
 
 
 def plot_value_array(prediction):
@@ -95,5 +93,5 @@ plt.show()
 for i in range(10):
     plt.imshow(train_images[i], cmap=plt.cm.binary)
     plt.title(f"{class_names[train_labels[i]]}")
-    plt.text(0, 0.5,f'{train_images[i].shape}')
+    plt.text(0.01, 0.5,f'{train_images[i].shape}')
     plt.show()'''
