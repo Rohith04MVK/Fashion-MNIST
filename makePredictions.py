@@ -14,10 +14,10 @@ def get_image(path):
 
 
 images = np.array([get_image("./images/trousers.png"),
-                   get_image("./images/ankleboot.png"), get_image('./images/coat.png')])
+                   get_image("./images/ankleboot.png"), get_image('./images/coat.png'), get_image('./images/bag.png')])
 plt.figure(figsize=(10, 10))
-for i in range(3):
-    plt.subplot(1, 3, i+1)
+for i in range(4):
+    plt.subplot(1, 4, i+1)
     plt.xticks([])
     plt.yticks([])
     plt.imshow(images[i], cmap=plt.cm.binary)
@@ -48,11 +48,11 @@ def plot_value_array(prediction):
 
 
 plt.figure(figsize=(8, 12))
-for i in range(3):
+for i in range(4):
     # image
-    plt.subplot(3, 2, 2*i+1)
+    plt.subplot(4, 2, 2*i+1)
     plot_image(preds[i], images[i])
     # bar chart
-    plt.subplot(3, 2, 2*i+2)
+    plt.subplot(4, 2, 2*i+2)
     plot_value_array(preds[i])
 plt.show()
