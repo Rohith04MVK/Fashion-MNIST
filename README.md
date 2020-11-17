@@ -4,13 +4,13 @@
 ### Simple fashion accessories recognizing AI
 ### Using the Fashion Mnist dataset in Tensorflow
 # How to run.
-### ```conda create -n fashion_mnist python=3.6```
+### ```conda create -n fashion_mnist python=3.8.5```
 ### ```conda activate fashion_mnist ```
 ### ```pip install -r requirements.txt```
-### ```python fashionMnist.py```
+### ```python makePredictions.py```
 # How to add your own images.
-### - Add them to the folder with the main file
-### - Replace the names in line 44 with your file names
+### - Add them to the images folder 
+### - Replace the names in predictions file line 16 with your file names
 ### eg: ```images = np.array([get_image("something.png"), get_image("any.png")])```
 
 
