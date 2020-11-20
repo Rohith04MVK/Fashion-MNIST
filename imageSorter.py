@@ -1,6 +1,3 @@
-from matplotlib import image
-from matplotlib.pyplot import cla
-from numpy.core.defchararray import split
 import tensorflow as tf
 import cv2
 import numpy as np
@@ -10,8 +7,8 @@ import shutil
 
 
 
-class_names = ['T-shirt', 'trousers', 'pullover', 'dress', 'coat',
-               'sandal', 'shirt', 'sneaker', 'bag', 'ankle boot']
+class_names = ['Tshirt', 'trousers', 'pullover', 'dress', 'coat',
+               'sandal', 'shirt', 'sneaker', 'bag', 'ankleboot']
 
 
 def get_image(path):
@@ -25,6 +22,7 @@ path = "./images/"
 onlyfiles = [file for file in listdir(path) if isfile(join(path, file))]
 
 for i in range(len(onlyfiles)):
+    images = []
     images = np.array([get_image(f"./images/{onlyfiles[i]}")])
     images_reshaped = images.reshape(images.shape[0], 28, 28, 1)
     images_reshaped = tf.cast(images_reshaped, tf.float32)
@@ -35,3 +33,6 @@ for i in range(len(onlyfiles)):
         shutil.move(f'./images/{onlyfiles[i]}', f"./images/{image_type}")
     else:
         print("There is no folder for this")
+        print(image_type)
+        print(f"./images/{image_type}")
+        print(f"./images/{onlyfiles[i]}")
