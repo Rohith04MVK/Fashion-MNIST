@@ -6,7 +6,6 @@ from os.path import isfile, join, isdir
 import shutil
 
 
-
 class_names = ['Tshirt', 'trousers', 'pullover', 'dress', 'coat',
                'sandal', 'shirt', 'sneaker', 'bag', 'ankleboot']
 
@@ -15,6 +14,7 @@ def get_image(path):
     img = cv2.imread(path)
     img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     return cv2.resize(img, (28, 28))
+
 
 model = tf.keras.models.load_model("model.h5")
 mypath = "./images/{}"
