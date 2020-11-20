@@ -34,5 +34,4 @@ for i in range(len(onlyfiles)):
     else:
         print("There is no folder for this")
         print(image_type)
-        print(f"./images/{image_type}")
-        print(f"./images/{onlyfiles[i]}")
+        print(f"./images/{onlyfiles[i]} to ./images/{image_type}")
