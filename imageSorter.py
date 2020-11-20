@@ -30,12 +30,12 @@ for i in range(len(onlyfiles)):
     else:
         print("There is no folder for this")
 
-#images_reshaped = images.reshape(images.shape[0], 28, 28, 1)
-#images_reshaped = tf.cast(images_reshaped, tf.float32)
+images_reshaped = images.reshape(images.shape[0], 28, 28, 1)
+images_reshaped = tf.cast(images_reshaped, tf.float32)
 
 
-#preds = model.predict(images_reshaped)
+preds = model.predict(images_reshaped)
 
-#image_type = class_names[np.argmax(preds)]
+image_type = class_names[np.argmax(preds)]
 
-#print(image_type)
+print(image_type)
