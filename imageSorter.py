@@ -29,7 +29,7 @@ for i in range(len(onlyfiles)):
     preds = model.predict(images_reshaped)
     image_type = class_names[np.argmax(preds)]
 
-    if isdir(mypath.format(onlyfiles[i].split('.') [0])):
+    if isdir(mypath.format(image_type)):
         shutil.move(f'./images/{onlyfiles[i]}', f"./images/{image_type}")
     else:
         print("There is no folder for this")
