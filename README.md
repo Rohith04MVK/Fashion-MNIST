@@ -18,3 +18,5 @@
 ### Neural Network is essentially a network of mathematical equations. It takes one or more input variables, and by going through a network of equations, results in one or more output variables. You can also say that a neural network takes in a vector of inputs and returns a vector of outputs
 ### In a neural network, there’s an input layer, one or more hidden layers, and an output layer. The input layer consists of one or more feature variables (or input variables or independent variables) denoted as x1, x2, …, xn. The hidden layer consists of one or more hidden nodes or hidden units. A node is simply one of the circles in the diagram above. Similarly, the output variable consists of one or more output units.
 ![image](https://miro.medium.com/max/375/1*sTmVItSxeU8nwNfWIuZcqw.png)
+
+##Convolutional Neural Networks(CNN)
