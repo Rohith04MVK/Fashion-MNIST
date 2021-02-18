@@ -19,4 +19,4 @@
 ### In a neural network, there’s an input layer, one or more hidden layers, and an output layer. The input layer consists of one or more feature variables (or input variables or independent variables) denoted as x1, x2, …, xn. The hidden layer consists of one or more hidden nodes or hidden units. A node is simply one of the circles in the diagram above. Similarly, the output variable consists of one or more output units.
 ![image](https://miro.medium.com/max/375/1*sTmVItSxeU8nwNfWIuZcqw.png)
 
-##Convolutional Neural Networks(CNN)
+## Convolutional Neural Networks(CNN)
