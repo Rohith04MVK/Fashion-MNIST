@@ -20,4 +20,5 @@
 ![image](https://miro.medium.com/max/375/1*sTmVItSxeU8nwNfWIuZcqw.png)
 
 ## Convolutional Neural Networks(CNN)
-### A convolutional neural network (CNN) is a type of neural network that uses a mathematical operation called convolution [Wikipidia](https://en.wikipedia.org/wiki/Convolution). 
+### A convolutional neural network (CNN) is a type of neural network that uses a mathematical operation called convolution.
+### According to [Wikipidia](https://en.wikipedia.org/wiki/Convolution) Convolution is a mathematical operation on two functions that produces a third function expressing how the shape of one is modified by the other. Thus, CNNs use convolution instead of general matrix multiplication in at least one of their layers.
