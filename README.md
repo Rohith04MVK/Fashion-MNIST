@@ -13,4 +13,5 @@
 ### - Replace the names in predictions file line 16 with your file names
 ### eg: ```images = np.array([get_image("something.png"), get_image("any.png")])```
 
+## How to it works?
 
