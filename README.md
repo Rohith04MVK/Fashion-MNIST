@@ -24,3 +24,4 @@
 ### According to [Wikipidia](https://en.wikipedia.org/wiki/Convolution) Convolution is a mathematical operation on two functions that produces a third function expressing how the shape of one is modified by the other. Thus, CNNs use convolution instead of general matrix multiplication in at least one of their layers.
 ![image](https://www.researchgate.net/profile/Anjith_George2/publication/303303279/figure/download/fig2/AS:362970388418561@1463550292107/Architecture-of-the-CNN-used.png)
 ## Relu (Activation function)
+### The softmax function is used as the activation function in the output layer of neural network models that predict a multinomial probability distribution. That is, softmax is used as the activation function for multi-class classification problems where class membership is required on more than two class labels.
