@@ -14,4 +14,7 @@
 ### eg: ```images = np.array([get_image("something.png"), get_image("any.png")])```
 
 ## How to it works?
+### Neural networks
+####Neural Network is essentially a network of mathematical equations. It takes one or more input variables, and by going through a network of equations, results in one or more output variables. You can also say that a neural network takes in a vector of inputs and returns a vector of outputs
 
+####
