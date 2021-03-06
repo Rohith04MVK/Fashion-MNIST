@@ -1,7 +1,9 @@
 # Fashion-MNIST
 
-[![made-with-python](https://img.shields.io/badge/Made%20with-Python%203.8-ffe900.svg?longCache=true&style=flat-square&colorB=00a1ff&logo=python&logoColor=#ffff00)](https://www.python.org/)
-[![made-with-python](https://img.shields.io/badge/Made%20with-Tensorflow%202.3.1-FFFF00.svg?longCache=true&style=flat-square&colorB=00a1ff&logo=tensorflow&logoColor=FFFF00)](https://www.tensorflow.org/)
+[![made-with-python](https://camo.githubusercontent.com/a71f1a20d58a3506dd5f32dcb31461bd5102a0bd33dbf49db9195c589eaca8d7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f707974686f6e2532302d2532333134333534432e7376673f267374796c653d666f722d7468652d6261646765266c6f676f3d707974686f6e266c6f676f436f6c6f723d7768697465)](https://www.python.org/)
+
+
+
 
 Simple fashion accessories recognizing AI using the Fashion Mnist dataset in Tensorflow
 
