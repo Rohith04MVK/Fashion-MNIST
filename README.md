@@ -4,7 +4,6 @@
 
 
 
-
 Simple fashion accessories recognizing AI using the Fashion Mnist dataset in Tensorflow
 
 # Steps to run it on your machine.
