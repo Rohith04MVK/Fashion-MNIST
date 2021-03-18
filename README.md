@@ -7,6 +7,7 @@ Simple fashion accessories recognizing AI using the Fashion Mnist dataset in Ten
 # Steps to run it on your machine.
 **Note**: You need anaconda installed to use this well.
 
+- Clone the repo : `git clone https://github.com/Rohith04MVK/Fashion-MNIST`
 - Create a virtualenv : `conda create -n fashion_mnist python=3.8.5`
 - Activate the environment: `conda activate fashion_mnist`
 - Install the requirements: `pip install -r requirements.txt`
