@@ -2,3 +2,5 @@ tensorflow
 numpy
 matplotlib
 opencv-python
+shutil
+keras
