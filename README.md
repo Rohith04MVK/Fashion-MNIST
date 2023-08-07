@@ -7,8 +7,8 @@
 # Steps to run it on your machine.
 **Note**: You need anaconda installed to use this well.
 
-- Clone the repo : `git clone https://github.com/Rohith04MVK/Fashion-MNIST`
-- Create a virtualenv : `conda create -n fashion_mnist python=3.8.5`
+- Clone the repo: `git clone https://github.com/Rohith04MVK/Fashion-MNIST`
+- Create a virtualenv: `conda create -n fashion_mnist python=3.8.5`
 - Activate the environment: `conda activate fashion_mnist`
 - Install the requirements: `pip install -r requirements.txt`
 - Run the main file: `python makePredictions.py`
@@ -38,7 +38,7 @@ According to [Wikipedia](https://en.wikipedia.org/wiki/Convolution) Convolution 
 
 ## Rectified linear unit aka ReLu (Activation function)
 
-Traditionally, some prevalent non-linear activation functions, like sigmoid functions (or logistic) and hyperbolic tangent, are used in neural networks to get activation values corresponding to each neuron. Recently, the ReLu function has been used instead to calculate the activation values in traditional neural network or deep neural network paradigms. The reasons of replacing sigmoid because the ReLu function is able to accelerate the training speed of deep neural networks compared to traditional activation functions since the derivative of ReLu is 1 for a positive input. Due to a constant, deep neural networks do not need to take additional time for computing error terms during training phase.
+Traditionally, some prevalent non-linear activation functions, like sigmoid functions (or logistic) and hyperbolic tangent, are used in neural networks to get activation values corresponding to each neuron. Recently, the ReLu function has been used instead to calculate the activation values in traditional neural networks or deep neural network paradigms. The reason for replacing sigmoid is that the ReLu function is able to accelerate the training speed of deep neural networks compared to traditional activation functions since the derivative of ReLu is 1 for positive input. Due to constant, deep neural networks do not need to take additional time for computing error terms during the training phase.
 
 ![image](https://ailephant.com/wp-content/uploads/2018/08/ReLU-function-graph-300x234.png)
 
